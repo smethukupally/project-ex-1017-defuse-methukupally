@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_xDQYwPIeEemu3_10t7XqrA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_yX7FoPIeEemu3_10t7XqrA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_Db3HwPIfEemu3_10t7XqrA" elementId="project-ex-1017-defuse-methukupally.command.simplebinding" commandName="Simple Binding"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_7Nh0YPIeEemu3_10t7XqrA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_F8YjwPIfEemu3_10t7XqrA" elementId="project-ex-1017-defuse-methukupally.handler.0" contributionURI="bundleclass://project-ex-1017-defuse-methukupally/handler.DefUseHandler" command="_Db3HwPIfEemu3_10t7XqrA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_9OHMEPIeEemu3_10t7XqrA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_JccxMPIfEemu3_10t7XqrA" elementId="project-ex-1017-defuse-methukupally.partdescriptor.simpleviewdefusemethukupally" label="Simple View Def Use Methukupally" contributionURI="bundleclass://project-ex-1017-defuse-methukupally/view.SimpleViewer"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__MI_APIeEemu3_10t7XqrA" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_PzWB0PIfEemu3_10t7XqrA" elementId="project-ex-1017-defuse-methukupally.menucontribution.0" positionInParent="after=window" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_tls3UPIfEemu3_10t7XqrA" elementId="project-ex-1017-defuse-methukupally.menu.mymenu" label="My Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_yeFikPIfEemu3_10t7XqrA" elementId="project-ex-1017-defuse-methukupally.handledmenuitem.defuseanalysismethukupally" label="Def Use Analysis Methukupally" command="_Db3HwPIfEemu3_10t7XqrA"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
